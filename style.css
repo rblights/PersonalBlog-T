@@ -1,0 +1,177 @@
+/* SETUP */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+
+    /*  DEV TOOLS
+    border: 2px solid red;
+    padding: 1px; 
+
+    */
+    
+}
+
+picture, img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit
+}
+
+a:hover, button:hover {
+    color: palevioletred;
+}
+
+button {
+    cursor: pointer;
+    min-width: 10em;
+    max-width: 10em;
+    max-height: 3em;
+}
+ 
+
+/* STRUCTURE */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: pink;
+}
+
+main {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+content-wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0% 10vw;
+}
+
+/* STYLE */
+
+main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHeader {
+    position: sticky;
+    position: 0;
+    
+}
+
+.mainHeader content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+
+.mainHeader content-wrapper div {
+    width: 50%;
+}
+
+
+.blogName {
+    color: orchid;
+}
+
+.socialLinks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+nav a {
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 3%;
+}
+
+nav a img {
+    height: 32px;
+    width: 32px;
+    
+}
+
+.aboutMe content-wrapper div{
+    margin: 5%;
+    border-radius: 25px;
+    background-color: aliceblue;
+    color: orchid;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;  
+}
+
+.cards content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.cards article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    flex: 0 0 auto;
+    margin: 5% 0%;
+    border-radius: 15px 50px 30px 5px;
+    background-color: aliceblue;
+    color: orchid;
+}
+
+.cards article img {
+    border-radius: 15px 50px 30px 5px;
+}
+
+.cards article h3, p {
+    text-align: center;
+    padding: 5% 5%;
+}
+
+footer {
+    border-radius: 25px;
+    background-color: aliceblue;
+    
+}
+
+footer content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.email {
+    text-align: center;
+    color: orchid;
+}
+
