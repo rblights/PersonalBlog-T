@@ -191,7 +191,7 @@ nav a img {
 /* Larger screens */
 @media (min-width: 992px) {
   .cards article {
-    width: 20%;
+    max-width: 20%;
   }
 } 
 
