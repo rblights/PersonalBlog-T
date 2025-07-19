@@ -11,11 +11,12 @@ html {
     -moz-box-sizing: inherit;
     box-sizing: inherit;
 
-    /*  DEV TOOLS
+    /*  DEV TOOLS 
     border: 2px solid red;
     padding: 1px; 
-
     */
+
+    
     
 }
 
@@ -72,8 +73,7 @@ main {
 
 .mainHeader {
     position: sticky;
-    position: 0;
-    
+    top: 0;
 }
 
 .mainHeader content-wrapper {
@@ -83,15 +83,16 @@ main {
     align-items: center;
     border-radius: 25px;
     background-color: aliceblue;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 0.5);
 }
 
 .mainHeader content-wrapper div {
-    width: 50%;
+    width: 33%;
 }
 
 
 .blogName h1{
+    flex: 1 1 auto;
     color: orchid;
     text-shadow: 3px 3px pink;
 }
@@ -103,7 +104,7 @@ main {
 .socialLinks {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
+    flex: 1 1 auto;
     justify-content: space-evenly;
 }
 
@@ -112,28 +113,34 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     margin: 0% 3%;
-    border-radius: 25px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 0.5);
 }
 
 nav a img {
     height: 32px;
     width: 32px;
+    border-radius: 50px;
     
     
 }
 
-.aboutMe content-wrapper div{
+.about content-wrapper div{
+    flex: 1 1 auto;
     margin: 5%;
     border-radius: 25px;
     background-color: aliceblue;
     color: orchid;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 0.5);
     
 }
 
-.aboutMe h2 {
+.about h2 {
     text-shadow: 2px 2px pink;
+}
+
+.about p {
+    margin: 5% 5%;
 }
 
 .cards {
@@ -156,11 +163,11 @@ nav a img {
 .cards article {
     display: flex;
     flex-wrap: wrap;
-    width: 250px;
-    flex: 0 0 auto;
-    margin: 1% 1%;
+    width: 200px;
+    flex: 1 1 auto;
+    margin: 3% 3%;
     border-radius: 15px 25px 25px 5px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 0.5);
     background-color: aliceblue;
     color: orchid;
 }
@@ -192,15 +199,15 @@ footer {
     
 }
 
-footer content-wrapper {
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-    
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 0.5);
 }
 
 .email {
+    flex: 1 1 auto;
     text-align: center;
     color: orchid;
     text-shadow: 1px 1px pink;
