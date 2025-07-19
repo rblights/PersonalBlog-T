@@ -48,6 +48,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: pink;
+    font-family: "Edu NSW ACT Cursive", cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -82,6 +83,7 @@ main {
     align-items: center;
     border-radius: 25px;
     background-color: aliceblue;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .mainHeader content-wrapper div {
@@ -89,8 +91,13 @@ main {
 }
 
 
-.blogName {
+.blogName h1{
     color: orchid;
+    text-shadow: 3px 3px pink;
+}
+
+.blogName a {
+    text-decoration: none
 }
 
 .socialLinks {
@@ -105,11 +112,14 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     margin: 0% 3%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 nav a img {
     height: 32px;
     width: 32px;
+    
     
 }
 
@@ -118,6 +128,12 @@ nav a img {
     border-radius: 25px;
     background-color: aliceblue;
     color: orchid;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.aboutMe h2 {
+    text-shadow: 2px 2px pink;
 }
 
 .cards {
@@ -142,19 +158,32 @@ nav a img {
     flex-wrap: wrap;
     width: 250px;
     flex: 0 0 auto;
-    margin: 5% 0%;
-    border-radius: 15px 50px 30px 5px;
+    margin: 1% 1%;
+    border-radius: 15px 25px 25px 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     background-color: aliceblue;
     color: orchid;
 }
 
-.cards article img {
-    border-radius: 15px 50px 30px 5px;
+.cards article a {
+    text-decoration: none
 }
 
-.cards article h3, p {
+.cards article img {
+    border-radius: 15px 25px 25px 0px;
+}
+
+.cards article h3 {
     text-align: center;
     padding: 5% 5%;
+    text-shadow: 1px 1px pink;
+    
+}
+
+.cards article p {
+    text-align: center;
+    padding: 5% 5%;
+    
 }
 
 footer {
@@ -167,11 +196,13 @@ footer content-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     
 }
 
 .email {
     text-align: center;
     color: orchid;
+    text-shadow: 1px 1px pink;
 }
 
