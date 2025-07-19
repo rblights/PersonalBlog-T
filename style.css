@@ -32,6 +32,13 @@ a {
 
 a:hover, button:hover {
     color: palevioletred;
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 7.5);
+}
+
+.cards a:hover {
+    color: palevioletred;
+    border-radius: 15px 25px 25px 5px;
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 7.5);
 }
 
 button {
