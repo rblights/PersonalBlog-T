@@ -16,8 +16,6 @@ html {
     padding: 1px; 
     */
 
-    
-    
 }
 
 picture, img {
@@ -28,17 +26,6 @@ picture, img {
 
 a {
     color: inherit
-}
-
-a:hover, button:hover {
-    color: palevioletred;
-    box-shadow: 4px 4px 4px rgba(218, 112, 214, 7.5);
-}
-
-.cards a:hover {
-    color: palevioletred;
-    border-radius: 15px 25px 25px 5px;
-    box-shadow: 4px 4px 4px rgba(218, 112, 214, 7.5);
 }
 
 button {
@@ -59,6 +46,27 @@ body {
     font-family: "Edu NSW ACT Cursive", cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+/* Base styles */
+body {
+  font-size: 16px;
+}
+
+/* Larger screens */
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+} 
+
+/* Smaller tablets and mobiles */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+
 main {
     flex-grow: 1;
     justify-content: center;
@@ -71,6 +79,11 @@ content-wrapper {
 }
 
 /* STYLE */
+
+a:hover, button:hover {
+    color: palevioletred;
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 7.5);
+}
 
 main {
     text-align: center;
@@ -101,7 +114,7 @@ main {
 .blogName h1{
     flex: 1 1 auto;
     color: orchid;
-    text-shadow: 3px 3px pink;
+    text-shadow: 5px 5px pink;
 }
 
 .blogName a {
@@ -125,6 +138,7 @@ nav a {
 }
 
 nav a img {
+    flex: 1 1 auto;
     height: 32px;
     width: 32px;
     border-radius: 50px;
@@ -170,7 +184,7 @@ nav a img {
 .cards article {
     display: flex;
     flex-wrap: wrap;
-    width: 200px;
+    width: 125px;
     flex: 1 1 auto;
     margin: 3% 3%;
     border-radius: 15px 25px 25px 5px;
@@ -181,6 +195,12 @@ nav a img {
 
 .cards article a {
     text-decoration: none
+}
+
+.cards a:hover {
+    color: palevioletred;
+    border-radius: 15px 25px 25px 5px;
+    box-shadow: 4px 4px 4px rgba(218, 112, 214, 7.5);
 }
 
 .cards article img {
@@ -197,13 +217,12 @@ nav a img {
 .cards article p {
     text-align: center;
     padding: 5% 5%;
-    
+    tex
 }
 
 footer {
     border-radius: 25px;
     background-color: aliceblue;
-    
 }
 
 footer {
@@ -214,7 +233,6 @@ footer {
 }
 
 .email {
-    flex: 1 1 auto;
     text-align: center;
     color: orchid;
     text-shadow: 1px 1px pink;
