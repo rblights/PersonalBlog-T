@@ -179,8 +179,8 @@ nav a img {
 .cards article {
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
-    min-width: 30%;
+    width: 40%;
+    min-width: 40%;
     margin: 3% 3%;
     border-radius: 15px 25px 25px 5px;
     box-shadow: 4px 4px 4px rgba(218, 112, 214, 0.5);
